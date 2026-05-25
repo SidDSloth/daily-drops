@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Drops</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #f8f8f7;
+    color: #1a1a1a;
+    padding: 16px;
+  }
+
+  /* DATE NAV */
+  .date-nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+
+  .nav-btn {
+    width: 28px; height: 28px;
+    border-radius: 6px;
+    border: 1px solid #d4d4d0;
+    background: white;
+    cursor: pointer;
+    font-size: 13px;
+    display: flex; align-items: center; justify-content: center;
+    color: #555;
+    transition: background 0.1s;
+    flex-shrink: 0;
+  }
+  .nav-btn:hover:not(:disabled) { background: #f0f0ee; }
+  .nav-btn:disabled { opacity: 0.3; cursor: default; }
+
+  .date-pills {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+
+  .date-pill {
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 1px solid #d4d4d0;
+    background: white;
+    font-size: 12px;
+    font-weight: 500;
+    color: #555;
+    cursor: pointer;
+    transition: all 0.1s;
+    white-space: nowrap;
+  }
+  .date-pill.active {
+    background: #1a1a1a;
+    border-color: #1a1a1a;
+    color: white;
+  }
+  .date-pill:hover:not(.active) { background: #f0f0ee; }
+
+  /* TABS */
+  .tabs {
+    display: flex;
+    gap: 3px;
+    margin-bottom: 14px;
+    background: #ebebea;
+    padding: 3px;
+    border-radius: 8px;
+    width: fit-content;
+  }
+  .tab {
+    padding: 5px 13px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #666;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background: none;
+    transition: all 0.15s;
+  }
+  .tab.active { background: white; color: #1a1a1a; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+  .tab:hover:not(.active) { color: #333; }
+
+  /* PANELS */
+  .panel { display: none; }
+  .panel.active { display: block; }
+
+  /* CARDS */
+  .card {
+    background: white;
+    border: 1px solid #e8e8e6;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .card-header {
+    padding: 13px 16px;
+    color: white;
+  }
+  .card-header.ky { background: linear-gradient(135deg, #1a1a1a 0%, #333 100%); }
+  .card-header.gita { background: linear-gradient(135deg, #78350f 0%, #a16207 100%); }
+  .card-header.li { background: linear-gradient(135deg, #0f3460 0%, #1d6fa4 100%); }
+
+  .card-eyebrow {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 2px;
+  }
+  .card-title { font-size: 15px; font-weight: 600; }
+
+  .card-body { padding: 16px; }
+
+  .section { margin-bottom: 14px; }
+  .section:last-child { margin-bottom: 0; }
+
+  .sec-label {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: #aaa;
+    margin-bottom: 5px;
+  }
+
+  .sec-text {
+    font-size: 13px;
+    line-height: 1.65;
+    color: #2a2a2a;
+  }
+
+  .sec-source { font-size: 11px; color: #aaa; font-style: italic; margin-top: 4px; }
+
+  .callout {
+    padding: 10px 13px;
+    border-radius: 0 6px 6px 0;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 1.5;
+    color: #2a2a2a;
+  }
+  .callout.ky { background: #f5f5f3; border-left: 3px solid #1a1a1a; }
+  .callout.gita { background: #fffbeb; border-left: 3px solid #a16207; }
+
+  .move-box {
+    background: #fafaf8;
+    border: 1px solid #e8e8e6;
+    padding: 10px 13px;
+    border-radius: 6px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #333;
+  }
+
+  .divider { height: 1px; background: #f0f0ee; margin: 12px 0; }
+
+  /* Gita shlok */
+  .shlok {
+    font-size: 14px;
+    line-height: 1.9;
+    text-align: center;
+    color: #1a1a1a;
+    margin-bottom: 3px;
+  }
+  .transliteration {
+    font-size: 11px;
+    color: #999;
+    text-align: center;
+    font-style: italic;
+    line-height: 1.8;
+    margin-bottom: 12px;
+  }
+
+  /* LinkedIn */
+  .li-post { margin-bottom: 14px; padding-bottom: 14px; border-bottom: 1px solid #f0f0ee; }
+  .li-post:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+
+  .li-post-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 5px; }
+  .li-post-name { font-size: 13px; font-weight: 600; }
+  .li-post-role { font-size: 11px; color: #888; }
+  .li-post-stats { font-size: 11px; color: #bbb; white-space: nowrap; }
+
+  .li-summary { font-size: 12px; color: #555; line-height: 1.5; margin-bottom: 7px; }
+
+  .li-options { display: flex; flex-direction: column; gap: 5px; }
+  .li-option {
+    background: #f8f8f7;
+    border: 1px solid #e8e8e6;
+    border-radius: 6px;
+    padding: 7px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #333;
+    cursor: pointer;
+    transition: background 0.1s;
+    text-align: left;
+  }
+  .li-option:hover { background: #f0f0ee; }
+  .li-option.selected { background: #eff6ff; border-color: #bfdbfe; color: #1e40af; }
+  .li-opt-label { font-size: 10px; font-weight: 700; text-transform: uppercase; color: #aaa; margin-bottom: 2px; }
+  .li-option.selected .li-opt-label { color: #3b82f6; }
+
+  /* Empty / not found */
+  .not-found {
+    text-align: center;
+    padding: 32px 16px;
+    color: #bbb;
+    font-size: 13px;
+  }
+  .not-found-icon { font-size: 24px; margin-bottom: 6px; }
+
+  .chat-note {
+    background: #fffbeb;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 9px 13px;
+    font-size: 12px;
+    color: #92400e;
+    margin-bottom: 12px;
+  }
+</style>
+</head>
+<body>
+
+<div class="date-nav">
+  <div class="date-pills" id="date-pills"></div>
+</div>
+
+<div class="tabs">
+  <button class="tab active" onclick="switchTab('ky')">🧘 Karma Yoga</button>
+  <button class="tab" onclick="switchTab('gita')">📖 Gita</button>
+  <button class="tab" onclick="switchTab('li')">💼 LinkedIn</button>
+</div>
+
+<div id="content"></div>
+
+<script>
+// ─── DATA ───────────────────────────────────────────────────────────────────
+
+const DATA = {
+  "2026-05-25": {
+    ky: {
+      eyebrow: "Day 10 · Mon May 25, 2026",
+      title: "Karma Yoga",
+      principle: {
+        text: `Jeff Bezos describes leaving a senior position at a hedge fund to start Amazon by projecting himself to age 80 and asking: which choice would I regret not making? The key detail is the asymmetry. He knew with certainty he would regret not trying. He was far less certain he would regret failing. Most people invert this and treat the attempt as the risk. Bezos treated the non-attempt as the certainty.\n\nThe PM transition you are navigating has this same shape. The version of you at 80 will not wonder whether the attempt was worth it. That version will only regret the years spent in a position you already knew you had outgrown, doing work that did not use the full capacity you carry.\n\nThe regret minimization framework is not permission to quit your job tomorrow. It is a lens for smaller choices: the one-pager not written, the application not sent, the skill not built on this quiet Monday morning.`,
+        source: "Jeff Bezos"
+      },
+      move: `Find Bezos's original regret minimization talk on YouTube (search "Bezos regret minimization" and take the short clip, under 3 minutes). After watching, write one sentence: what is the one professional move you are currently postponing that your 80-year-old self would find inexplicable? Then write one concrete step you could take this week to begin it. Do not share. The point is the naming.`,
+      question: "When you project yourself to 80 and look back at this particular Monday, what would you most regret not having started?"
+    },
+    gita: null,
+    gitaNote: "Today's verse may have come through Claude chat instead of Slack.",
+    li: null,
+    liNote: "Today's batch ran at 8am — may not have indexed in Slack yet."
+  }
+};
+
+const DATES = Object.keys(DATA).sort((a, b) => b.localeCompare(a));
+let currentDate = DATES[0];
+let currentTab = 'ky';
+renderPills();
+renderContent();
+</script>
+</body></html>
