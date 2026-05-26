@@ -261,8 +261,16 @@ The regret minimization framework is not permission to quit your job tomorrow. I
       move: `Find Bezos's original regret minimization talk on YouTube (search "Bezos regret minimization" and take the short clip, under 3 minutes). After watching, write one sentence: what is the one professional move you are currently postponing that your 80-year-old self would find inexplicable? Then write one concrete step you could take this week to begin it. Do not share. The point is the naming.`,
       question: "When you project yourself to 80 and look back at this particular Monday, what would you most regret not having started?"
     },
-    gita: null,
-    gitaNote: "Today's verse may have come through Claude chat instead of Slack.",
+    gita: {
+      eyebrow: "Bhagavad Gita",
+      title: "Chapter 7, Verse 9",
+      shlok: "पुण्यो गन्धः पृथिव्यां च तेजश्चास्मि विभावसौ।\nजीवनं सर्वभूतेषु तपस्चास्मि तपस्विषु।।",
+      transliteration: "puṇyo gandhaḥ pṛthivyāṁ ca | tejaś cāsmi vibhāvasau\njīvanaṁ sarva-bhūteṣu | tapaś cāsmi tapasviṣu",
+      translation: "I am the pure fragrance of the earth, and the brilliance in fire. I am the life in all beings, and the austerity in ascetics.",
+      interpretation: `This verse extends the sequence from 7.5 through 7.8, where Krishna has been naming himself as the essential quality within ordinary things: taste in water, light of the sun, the syllable Om, the ability in human beings. Here he adds fragrance — the purest, most intangible quality of earth — and teja, the brightness or radiance in fire. He continues: jivanam sarva-bhuteshu, I am the life-force in all living things. And tapas — the austerity or sustained, disciplined effort — in those who practice it. The teaching is still the same: the divine is not elsewhere. It is the aliveness itself.`,
+      application: `The word tapas is doing real work here. It is not punishment or deprivation. It is the quality of sustained, unglamorous effort — the kind that does not look like much from the outside. The one-pagers written and filed. The tickets reframed as problem statements before anyone asked. The 15-minute sprint before the next call. This is tapas. And Krishna says: that quality, the capacity to do the slow, private work, is not yours to manufacture. It is what the divine is doing through you when you show up. On a Monday with no particular urgency, that framing is worth carrying.`,
+      question: "Where in your life right now is sustained, quiet effort the actual practice — not the obstacle to the practice?"
+    },
     li: null,
     liNote: "Today's batch ran at 8am — may not have indexed in Slack yet."
   },
@@ -395,7 +403,7 @@ You are in a window where urgency compounds. Not urgency as pressure, but urgenc
   }
 };
 
-// ─── DATES ───────────────────────────────────────────────────────────────────
+// ─── DATES ──────────────────────────────────────────────────────────────────
 
 const DATES = Object.keys(DATA).sort((a, b) => b.localeCompare(a)); // newest first
 let currentDate = DATES[0];
@@ -566,3 +574,4 @@ renderContent();
 </script>
 </body>
 </html>
+l>
