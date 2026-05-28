@@ -1,0 +1,87 @@
+{
+  "eyebrow": "Thu May 28, 2026",
+  "posts": [
+    {
+      "name": "Aja Frost",
+      "role": "Sr. Director, Global Growth & Paid, HubSpot",
+      "stats": "384 reactions · 41 comments · 3 reposts",
+      "summary": "HubSpot uses branded search spikes to measure channel impact when entering new markets, analyzes pages getting direct AI traffic, and runs incrementality tests by going dark in specific markets to measure true influence beyond last-click attribution.",
+      "link": "https://www.linkedin.com/search/results/content/?keywords=Aja+Frost+HubSpot+dark+traffic+loop+marketing+attribution",
+      "a": "The branded search spike angle is so underrated. Customers who found you through Reddit or AI just vanish into direct. Incrementality tests with dark periods are where real attribution lives 🙌",
+      "b": "The 'go dark in specific markets' test surfaces insights that platform data never could. If the signal isn't there before checkout, you're already behind. Real attribution lives outside the dashboard 🤝"
+    },
+    {
+      "name": "Sam N.",
+      "role": "Co-founder + CCO, goodwipes",
+      "stats": "103+ reactions · 28 comments",
+      "summary": "Sam reintroduces himself to his 17,002 followers as the co-founder of goodwipes, a DTC wellness CPG brand he's been building for 12.75 years. His motto: have fun and get sh*t done. He's all about holistic wellness of the consumer.",
+      "link": "https://www.linkedin.com/search/results/content/?keywords=Sam+goodwipes+17002+followers+co-founder+king+of+wipes",
+      "a": "12.75 years is a number I feel. Most people don't know what the 0.75 costs 🥹 Congrats on 17k, Sam.",
+      "b": "The 'holistic wellness of the consumer' framing in CPG is real and mostly underserved. 12.75 years building something this joyful is the whole move 🙌"
+    },
+    {
+      "name": "Neil Tewari",
+      "role": "CEO / Co-founder, Conversion",
+      "stats": "212 reactions · 37 comments · 6 reposts",
+      "summary": "Conversion Agents launched last week to 1.5M+ views and more demo requests than they can run. Neil is now hiring across GTM, engineering, growth, and ops, all in-person in San Francisco.",
+      "link": "https://www.linkedin.com/search/results/content/?keywords=Neil+Tewari+Conversion+Agents+1.5M+views+hiring+GTM",
+      "a": "The 'more demo requests than we can run' problem is such an underrated signal for real PMF. Congrats to the whole team 🙌",
+      "b": "1.5M views in a week and now every hire you can think of. The demand is clearly real. Rooting hard for the Conversion team 🤝"
+    },
+    {
+      "name": "Joanna Hyc",
+      "role": "Principal Customer Success Manager, Gainsight",
+      "stats": "9 reactions · 0 comments",
+      "summary": "Joanna shares highlights from Gainsight Pulse 2026 Day 1, where Gainsight announced AI agents for CS teams including a Risk Analyst Agent (3 months earlier churn detection) and an Expansion Analyst Agent. The MCP integration especially excites her because it lets CSMs build custom workflows on Gainsight's data in natural language without engineering.",
+      "link": "https://www.linkedin.com/search/results/content/?keywords=Joanna+Hyc+Gainsight+Pulse+2026+AI+agents+MCP",
+      "a": "The MCP piece is the one I keep coming back to. 'In natural language, without needing engineering' changes what CS can actually build 🙌",
+      "b": "Three months earlier on churn risk is huge. The real question is what the follow-up motion looks like when that signal fires at scale. Excited for Day 2 🤝"
+    },
+    {
+      "name": "Cole Lamphere",
+      "role": "Founder and CEO, Plotline",
+      "stats": "1 reaction · 0 comments",
+      "summary": "Cole shares a 4-stage SaaS onboarding playbook built from a near-churn experience with a 4,200 unit multifamily customer. Stage 1 is listening only. Stage 2 configures one community first, specifically picking the most skeptical region. His core lesson: onboarding is when you earn the right to ship the next feature.",
+      "link": "https://www.linkedin.com/search/results/content/?keywords=Cole+Lamphere+Plotline+onboarding+90+days+trust+stage",
+      "a": "The 'configure for one community first, pick the skeptic' stage is so right. Every time someone skips to portfolio-wide rollout it ends badly. Win the skeptic first 🤝",
+      "b": "Honestly the Stage 4 exit where you name three metrics before handing off is everything. Renewals are won before day 90 🙌"
+    }
+  ],
+  "connections": [
+    {
+      "name": "Aja Frost",
+      "why": "Sr. Director Global Growth at HubSpot, posted about dark traffic and incrementality testing for attribution",
+      "note": "Hey Aja, CSM at KnoCommerce here. Your dark traffic post was exactly what I needed to read. We help DTC brands use post-purchase surveys for exactly this kind of attribution gap. Would love to connect, no agenda."
+    },
+    {
+      "name": "Neil Tewari",
+      "why": "CEO of Conversion, posted about 1.5M views for Conversion Agents launch and team hiring",
+      "note": "Hey Neil, Sid here. CSM at KnoCommerce. The 1.5M views in a week for Conversion Agents is wild. Following closely. Would love to connect and keep up with where this goes, no agenda."
+    },
+    {
+      "name": "Joanna Hyc",
+      "why": "Principal CSM at Gainsight, posted about Pulse 2026 Day 1 and AI agents including MCP integration",
+      "note": "Hey Joanna, Sid here. CSM at KnoCommerce. Your Pulse recap was the best thing in my feed today. The MCP piece especially. Would love to stay connected as the CS+AI space evolves, no agenda."
+    },
+    {
+      "name": "Cole Lamphere",
+      "why": "Founder CEO at Plotline, posted a detailed 4-stage SaaS onboarding playbook with strong CS lens",
+      "note": "Hey Cole, Sid here. CSM at KnoCommerce. Your four-stage onboarding write-up resonated. The 'earn the right to ship the next feature' line is one I'm keeping. Would love to connect, no agenda."
+    },
+    {
+      "name": "Sam N.",
+      "why": "Co-founder of goodwipes DTC CPG brand, posted a 17k follower reintroduction celebrating 12.75 years building the brand",
+      "note": "Hey Sam, Sid here. Work in CS at KnoCommerce helping DTC brands. Your 17k reintro post made my morning. Would love to connect and follow the goodwipes journey, no agenda."
+    },
+    {
+      "name": "Saptaparna Dasgupta",
+      "why": "CSM building AI-powered retention workflows, posted about automating watermelon account detection with Make + Gemini + Telegram",
+      "note": "Hey Saptaparna, Sid here. CSM at KnoCommerce. Your watermelon account automation post was inspiring. Building something similar for our merchant base. Would love to connect, no agenda."
+    },
+    {
+      "name": "Kate Mountenay",
+      "why": "CS Leader and ex-Shopify, posted about TA and RecOps teams carrying spreadsheet-heavy manual processes",
+      "note": "Hey Kate, Sid here. CSM at KnoCommerce, ex-Shopify world. Your post about the spreadsheet that 'works fine until it doesn't' hit close. Would love to connect and learn from your CS journey, no agenda."
+    }
+  ]
+}
