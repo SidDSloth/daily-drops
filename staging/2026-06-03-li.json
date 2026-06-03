@@ -1,0 +1,87 @@
+{
+  "eyebrow": "Wed Jun 3, 2026",
+  "posts": [
+    {
+      "name": "Mark Vitcov, CPA CMA MBA",
+      "role": "Fractional CFO, SaaS & startup finance advisor",
+      "stats": "< 1 hour old · 0 reactions",
+      "summary": "Called out that 91% NRR isn't 'strong retention' — it's a slow leak. Made the case that churn is a product-market fit autopsy result dressed up as a CS metric so no one in the C-suite has to feel uncomfortable.",
+      "link": "https://www.linkedin.com/search/results/content/?keywords=Mark+Vitcov+NRR+CAC+churn+retention",
+      "a": "The 'CAC incinerator with a SaaS wrapper' framing is going to stick. And calling churn a 'PMF autopsy result dressed up as a CS metric so nobody has to feel uncomfortable' — most honest take I've seen 🙌",
+      "b": "The front door / back door problem is so real. Every board deck celebrates new logos while the NRR quietly tells the actual story. 91% isn't strong retention, it's slow erosion 🤝"
+    },
+    {
+      "name": "Beverly Hathorn, PHR, PMP",
+      "role": "Customer Success Leadership Coach, helping CS leaders get recognized and advance",
+      "stats": "~40 minutes old · 1 reaction",
+      "summary": "Challenged CS leaders to stop asking 'how do I get leadership to listen' and instead ask 'what am I making visible' — with 6 questions to ask before any executive conversation about revenue, retention, and risk.",
+      "link": "https://www.linkedin.com/in/beverlyhathorn/recent-activity/all/",
+      "a": "The shift from 'how do I get leadership to listen' to 'what am I making visible' is doing a lot of work. CS teams often have the impact, just not the language to translate it into revenue and risk 🙌",
+      "b": "This made me look at my own prep habits. I spend way more time doing the work than framing the work. The 6 questions are going into my next exec conversation checklist 💛"
+    },
+    {
+      "name": "Muhammad Hassaan Anjum",
+      "role": "Shopify Developer for Agencies & DTC Brands, conversion-focused full-stack engineer",
+      "stats": "9 hours old · 0 reactions",
+      "summary": "Made the case that most Shopify brands treat SMS like a louder email channel and wonder why their list hollows out. His framing: SMS is a 'reply-within-the-hour channel' — and listed the only 3 triggers that earn the alert: cart abandon, order shipped, restock.",
+      "link": "https://www.linkedin.com/search/results/content/?keywords=Muhammad+Hassaan+Anjum+SMS+email+Shopify+DTC",
+      "a": "The 'reply-within-the-hour channel' framing changes everything. Most brands treat SMS as a volume play and wonder why the list hollows out. Your 3 triggers are exactly the ones that feel like a favor, not an interruption 🤝",
+      "b": "The cart abandon 2-hour window reframe is real. Most DTC teams miss that SMS urgency decays fast and a 'same blast as email' approach just burns the list. This is the discipline that keeps it healthy 🙌"
+    },
+    {
+      "name": "Patrick Schwarz",
+      "role": "Senior Director Commercial Excellence & Marketing EMEA, pricing and CRM strategy",
+      "stats": "2 hours old · 8 reactions · 2 comments · 1 repost",
+      "summary": "After attending a sales conference, called out that most sales organizations have a process problem, not a talent problem — and that the instinct to swap people instead of fixing the playbook is why the same issues keep recurring.",
+      "link": "https://www.linkedin.com/in/pscx/recent-activity/all/",
+      "a": "Honestly this applies to CS too. So much churn gets blamed on the CSM when the real gap is in the sales to CS handoff or in a promise that was made before the contract was signed 🙌",
+      "b": "The attribution bias runs deep. It's easier to swap a rep than admit the playbook is broken. Process diagnostics rarely feel as decisive as a personnel change, but they actually stick 💛"
+    },
+    {
+      "name": "Arjjun Kumaar G M",
+      "role": "API Security Consultant & Customer Champion at Levo.ai, 14+ years in consulting and CS",
+      "stats": "< 1 hour old · 1 reaction",
+      "summary": "Argued that 'Customer Success' is the most misleading title in SaaS because CS teams spend 90% of their time managing failures, not success. His reframe: CS is about making sure what was promised gets delivered in the customer's world, their numbers, their daily reality — not in your dashboard.",
+      "link": "https://www.linkedin.com/search/results/content/?keywords=Arjjun+Kumaar+customer+success+misleading+job+title+SaaS",
+      "a": "The 'onboarding complete for WHO exactly' line is painfully real. When CS teams start measuring customer outcomes instead of their own activity, every conversation shifts. The 'who they call first' goal is everything 🤝",
+      "b": "The reframe from 'reducing churn' to 'making sure what was promised gets delivered in their world, their numbers' is subtle but it changes how you show up in every single customer conversation 🙌"
+    }
+  ],
+  "connections": [
+    {
+      "name": "Eli Weiss",
+      "why": "Came across his repost on the Yotpo Discover AI citations research and have been following his work since OLIPOP days",
+      "note": "Saw your repost on the Yotpo Discover AI citations research. Been following your work since OLIPOP. The DTC brand advocacy lens you bring is unique. Would love to connect, no agenda."
+    },
+    {
+      "name": "Elaine Zelby",
+      "why": "Her post on the best cold email she received came up in my feed and led me to Tofu",
+      "note": "Your cold email post came up in my feed and sent me down a Tofu rabbit hole. Agentic demand gen is fascinating. Would love to connect, no agenda."
+    },
+    {
+      "name": "Beverly Hathorn",
+      "why": "Commenting on her post about CS visibility — directly relevant to CSM to PM path",
+      "note": "Your post on CS visibility hit close to home as a CSM working toward PM. 'What am I making visible' is going into my exec prep notes. Would love to connect."
+    },
+    {
+      "name": "Or Malkai",
+      "why": "Saw his post (reposted by Eli Weiss) on AI citation decay and how fast DTC brands lose their AI discoverability",
+      "note": "Saw Eli repost your AI citations research from Yotpo Discover. The decay speed is a wake-up call for any DTC brand counting on that visibility. Would love to stay connected, no agenda."
+    },
+    {
+      "name": "Muhammad Hassaan Anjum",
+      "why": "His SMS vs email framing is directly useful for DTC brands Sid works with",
+      "note": "Your SMS framing as a 'reply-within-the-hour channel' is the clearest I've seen. Work with DTC brands on post-purchase data and your content keeps showing up at the right moment. No agenda."
+    },
+    {
+      "name": "Afik Bar Yoel",
+      "why": "Eli Weiss reposted his post on Klaviyo revenue ceiling in 2026 — directly adjacent to KnoCommerce's ecosystem",
+      "note": "Saw Eli repost your piece on crossing the Klaviyo revenue ceiling in 2026. The 25-30% cap framing is interesting. Work in the DTC data space and there's overlap. Would love to connect, no agenda."
+    },
+    {
+      "name": "Patrick Schwarz",
+      "why": "Commenting on his post — the sales process vs talent argument applies directly to CS",
+      "note": "Your post on sales orgs being process not talent problems applies just as much to CS. Been thinking about this a lot lately. Would love to stay connected, no agenda."
+    }
+  ]
+}
