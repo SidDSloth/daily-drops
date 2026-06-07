@@ -1,10 +1,11 @@
 {
-  "day": 5,
-  "last_sent_date": "2026-06-05",
+  "day": 6,
+  "last_sent_date": "2026-06-07",
   "recent_sources": [
     "Shreyas Doshi",
     "Patrick Collison",
     "Tao Te Ching, 33",
-    "Epictetus, Enchiridion 1.1"
+    "Epictetus, Enchiridion 1.1",
+    "Paul Graham, Do Things That Don't Scale"
   ]
 }
